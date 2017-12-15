@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="50.289286">
+<testcase classname="Go to Youtube from Google" name="Navigate to Youtube from Google" time="21.314781">
+<system-out><![CDATA[Given user opens google website.............................................passed
+Then user searches for youtube..............................................passed
+Then user clicks on youtube link............................................passed
+Then user searches for "bahubali" youtube video.............................passed
+And user clicks on the video................................................passed
+And closes the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Go to Youtube from Google" name="User prints the Title of the Pageq" time="15.094755">
+<system-out><![CDATA[Given user opens google website.............................................passed
+Then user searches for youtube..............................................passed
+Then user clicks on youtube link............................................passed
+Then user searches for "han solo" youtube video.............................passed
+Then user gets the title of the page........................................passed
+And closes the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Go to Youtube from Google" name="User prints the Title of the Pageq 2" time="13.87975">
+<system-out><![CDATA[Given user opens google website.............................................passed
+Then user searches for youtube..............................................passed
+Then user clicks on youtube link............................................passed
+Then user searches for "indiana joneS" youtube video........................passed
+Then user gets the title of the page........................................passed
+And closes the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,288 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#data driven testing without examples keyword"
+          }
+        ],
+        "line": 4,
+        "name": "Navigate to Youtube from Google",
+        "description": "",
+        "id": "go-to-youtube-from-google;navigate-to-youtube-from-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12160093404,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user opens google website",
+            "match": {
+              "location": "Main_StepDef.user_opens_google_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1848099488,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user searches for youtube",
+            "match": {
+              "location": "Main_StepDef.user_searches_for_youtube()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3966367096,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on youtube link",
+            "match": {
+              "location": "Main_StepDef.user_clicks_on_youtube_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1261193005,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user searches for \"bahubali\" youtube video",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bahubali",
+                  "offset": 19
+                }
+              ],
+              "location": "Main_StepDef.user_searches_for_bahubali_youtube_video(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1106708047,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on the video",
+            "match": {
+              "location": "Main_StepDef.user_clicks_on_the_video()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 972320432,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "closes the browser",
+            "match": {
+              "location": "Main_StepDef.closes_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "User prints the Title of the Pageq",
+        "description": "",
+        "id": "go-to-youtube-from-google;user-prints-the-title-of-the-pageq;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7277164568,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user opens google website",
+            "match": {
+              "location": "Main_StepDef.user_opens_google_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1797311910,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user searches for youtube",
+            "match": {
+              "location": "Main_StepDef.user_searches_for_youtube()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3889843507,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on youtube link",
+            "match": {
+              "location": "Main_StepDef.user_clicks_on_youtube_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1225979656,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user searches for \"han solo\" youtube video",
+            "match": {
+              "arguments": [
+                {
+                  "val": "han solo",
+                  "offset": 19
+                }
+              ],
+              "location": "Main_StepDef.user_searches_for_bahubali_youtube_video(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45597354,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user gets the title of the page",
+            "match": {
+              "location": "Main_StepDef.user_gets_the_title_of_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 858857715,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "closes the browser",
+            "match": {
+              "location": "Main_StepDef.closes_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "User prints the Title of the Pageq",
+        "description": "",
+        "id": "go-to-youtube-from-google;user-prints-the-title-of-the-pageq;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6846793710,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user opens google website",
+            "match": {
+              "location": "Main_StepDef.user_opens_google_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1680086969,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user searches for youtube",
+            "match": {
+              "location": "Main_StepDef.user_searches_for_youtube()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2979777769,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on youtube link",
+            "match": {
+              "location": "Main_StepDef.user_clicks_on_youtube_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1400193956,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user searches for \"indiana joneS\" youtube video",
+            "match": {
+              "arguments": [
+                {
+                  "val": "indiana joneS",
+                  "offset": 19
+                }
+              ],
+              "location": "Main_StepDef.user_searches_for_bahubali_youtube_video(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48354243,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user gets the title of the page",
+            "match": {
+              "location": "Main_StepDef.user_gets_the_title_of_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 924543078,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "closes the browser",
+            "match": {
+              "location": "Main_StepDef.closes_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Go to Youtube from Google",
+    "description": "",
+    "id": "go-to-youtube-from-google",
+    "keyword": "Feature",
+    "uri": "src/main/java/Features/main.feature"
+  }
+]
